@@ -5,7 +5,7 @@ from pathlib import Path
 
 p = Path(__file__)
 
-version = "1.0.3"
+version = "1.0.4"
 
 setup_requires = [
     'requests',
@@ -36,6 +36,6 @@ setuptools.setup(
         'Programming Language :: Python :: 3.6',
     ],
     entry_points = {
-        'console_scripts' : ['linesend = linesend:commandline'],
+        'console_scripts' : ['linesend = linesend.linesend:commandline'],
     },
 )
