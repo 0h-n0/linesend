@@ -5,7 +5,7 @@ from pathlib import Path
 
 p = Path(__file__)
 
-version = "1.0.2"
+version = "1.0.3"
 
 setup_requires = [
     'requests',
