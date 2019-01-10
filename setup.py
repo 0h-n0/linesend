@@ -5,13 +5,13 @@ from pathlib import Path
 
 p = Path(__file__)
 
-version = "1.0.0"
+version = "1.0.2"
 
 setup_requires = [
     'requests',
 ]
 install_requires = [
-    ''
+    'requests',    
 ]
 test_require = [
     '',
